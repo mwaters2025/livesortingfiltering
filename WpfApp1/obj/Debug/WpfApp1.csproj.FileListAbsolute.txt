@@ -1,0 +1,17 @@
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\ShellView.g.cs
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\ShellView.baml
+C:\Users\Mykhailo\source\repos\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
