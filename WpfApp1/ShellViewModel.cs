@@ -135,7 +135,7 @@ namespace WpfApp1 {
       this.SortedView = new ObservableCollection<User>(filtered);
     }
 
-    private void Subsribe() {
+    private void Subsсribe() {
       lock(this._originalViewLock) {
         this.OnUserRemoved += new EventHandler<User>(OnUserRemovedHandle);
         this.OnUserCreated += new EventHandler<User>(OnUserCreatedHandle);
@@ -148,7 +148,7 @@ namespace WpfApp1 {
     public ShellViewModel() {
       this.OriginalView = new ObservableCollection<User>();
       RandomService randomService = new RandomService();
-      this.Subsribe();
+      this.Subsсribe();
       
       
       
