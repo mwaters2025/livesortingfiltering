@@ -106,11 +106,9 @@ namespace WpfApp1 {
       }
     }
 
-    private void Refresh() {
-      
+    private void Refresh() { 
       User[] users = this.OriginalView.ToArray();
-      IEnumerable<User> filtered = null;
-
+      IEnumerable<User> filtered = null; 
       switch(FilterType) {
         case FilterType.ALL_COLORS: {
           filtered = users;
@@ -137,17 +135,21 @@ namespace WpfApp1 {
       this.SortedView = new ObservableCollection<User>(filtered);
     }
 
- 
-    public ShellViewModel() { 
-      RandomService randomService = new RandomService();
-      this.OriginalView = new ObservableCollection<User>();
-      this.SortedView = new ObservableCollection<User>();
-
+    private void Subsribe() {
       lock(this._originalViewLock) {
         this.OnUserRemoved += new EventHandler<User>(OnUserRemovedHandle);
         this.OnUserCreated += new EventHandler<User>(OnUserCreatedHandle);
         this.Refresh();
-      }
+      } 
+    }
+   
+
+
+    public ShellViewModel() {
+      this.OriginalView = new ObservableCollection<User>();
+      RandomService randomService = new RandomService();
+      this.Subsribe();
+      
       
       
       this.StartThreadCommand = new RelayCommand((a) => {
